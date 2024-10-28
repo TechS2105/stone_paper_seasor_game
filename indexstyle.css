@@ -1,0 +1,105 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Chakra Petch", sans-serif;
+
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.mainSection{
+
+    background-color: #292f367a;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 5rem;
+
+}
+
+.textSection{
+
+    background-color: #ffe76d85;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: boxAnimation 2s ease-in 0.1s;
+
+}
+
+#headingTag{
+
+    color: #F7FFF7;
+    font-size: 50px;
+
+}
+
+#spanTag{
+
+    font-size: 60px;
+    background-color: #292f36;
+    padding: 0px 60px 0px 60px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #FFE66D;
+    text-shadow: -1px 5px 2px #FF6B6B;
+    box-shadow: 5px 10px 10px #292f36;
+    border: 5px solid #F7FFF7;
+
+}
+
+#btnTag{
+
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+#btnTag:hover{
+
+    background-color: #FFE66D;
+    color: #292F36;
+    transition: all 0.3s ease-in;
+    box-shadow: 5px 10px 10px #292F36;
+
+}
+
+@keyframes boxAnimation{
+
+    0%{
+
+        opacity: 0;
+        transform: scale(0);
+
+    }100%{
+
+        opacity: 1;
+        transform: scale(1);
+
+    }
+
+}
